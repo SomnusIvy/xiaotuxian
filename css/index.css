@@ -1,0 +1,651 @@
+/* 轮播图 */
+.banner{
+    background-color: #f5f5f5;
+}
+.banner .wrapper{
+    height: 500px;
+    background-image: url(../uploads/banner_1.png);
+}
+.banner .left{
+    width: 250px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.banner .left dl{
+    padding-right: 18px;
+    padding-left: 36px;
+    height: 50px;
+    font-family: PingFangSC-Regular;
+    line-height: 50px;
+    text-align: center;
+}
+.banner .left dt{
+    margin-right: 4px;
+    color: #fff;
+}
+.banner .left dd{
+    margin: 0 6px;
+    font-size: 14px;
+    color: #fff;
+}
+.banner .left span{
+    margin-right: 18px;
+    margin-top: 18px;
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-image: url(../images/sprites.png);
+    background-position: -40px -110px;
+    /* line-height: 12px;
+    vertical-align: middle; */
+}
+.banner .left dl:hover{
+    background-color: #27ba9b;
+}
+.banner .yuan{
+    width: 46px;
+    height: 46px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 228px 8px 0 8px;
+    line-height: 46px;
+}
+.banner .zuo{
+    margin-left: 12px;
+    display: inline-block;
+    width: 14px;
+    height: 26px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -70px;
+    vertical-align: middle;
+}
+.banner .you{
+    /* 两边不一样？？ */
+    margin-left: 14px;
+    display: inline-block;
+    width: 14px;
+    height: 26px;
+    background-image: url(../images/sprites.png);
+    background-position: -40px -70px;
+    vertical-align: middle;
+}
+
+/* 新鲜好物 */
+.haowu{
+    height: 520px;
+}
+.haowu .biaoti{
+    margin-top: 10px;
+    height: 104px;
+    line-height: 104px;
+}
+.haowu .biaoti h2{
+    font-family: PingFangSC-Regular;
+	font-size: 28px;
+}
+.haowu .biaoti .chakan{
+    color: #999999;
+    background-color: #fff;
+}
+.haowu .biaoti p{
+    padding-top: 8px;
+    padding-left: 34px;
+    height: 104px;
+    color: #999999;
+    line-height: 104px;
+}
+.haowu .biaoti p span{
+    margin-left: 12px;
+    display: inline-block;
+    height: 14px;
+    width: 8px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+.haowu a{
+    margin-left: 8px;
+    display: inline-block;
+    width: 304px;
+    height: 404px;
+    background-color: #f0f9f4;
+}
+.haowu img{
+    width: 304px;
+    height: 304px;
+}
+.haowu p{
+    /* height: 50px; */
+    /* line-height: 50px; */
+    text-align: center;
+}
+.haowu .mingzi{
+    margin-top: 22px;
+    font-family: PingFangSC-Regular;
+	font-size: 20px;
+}
+.haowu .money{
+    font-family: PingFangSC-Medium;
+	font-size: 23px;
+    color: #9a2e1f;
+}
+.haowu .first{
+    margin-left: 0;
+}
+
+
+/* 推荐 */
+.tuijian{
+    height: 520px;
+}
+.tuijian .biaoti{
+    margin-top: 10px;
+    height: 104px;
+    line-height: 104px;
+}
+.tuijian .biaoti h2{
+    font-family: PingFangSC-Regular;
+	font-size: 28px;
+}
+.tuijian .biaoti p{
+    padding-top: 8px;
+    padding-left: 34px;
+    height: 104px;
+    color: #999999;
+    line-height: 104px;
+}
+
+.tuijian a{
+    margin-left: 8px;
+    display: inline-block;
+    width: 304px;
+    height: 404px;
+}
+.tuijian img{
+    width: 304px;
+    height: 304px;
+}
+.tuijian p{
+    /* height: 50px; */
+    /* line-height: 50px; */
+    text-align: center;
+}
+.tuijian .mingzi{
+    margin-top: 22px;
+    font-family: PingFangSC-Regular;
+	font-size: 20px;
+}
+.tuijian .miaoshu{
+    font-family: PingFangSC-Regular;
+    color: #999999;
+}
+.tuijian .first{
+    margin-left: 0;
+}
+
+.pinpai{
+	height: 466px;
+    background-color: #f5f5f5;
+}
+.pinpai .biaoti{
+    margin-top: 10px;
+    height: 104px;
+    line-height: 104px;
+    position: relative;
+}
+.pinpai .biaoti h2{
+    font-family: PingFangSC-Regular;
+	font-size: 28px;
+}
+.pinpai .biaoti .zi{
+    padding-top: 8px;
+    padding-left: 34px;
+    height: 104px;
+    color: #999999;
+    line-height: 104px;
+}
+.pinpai .biaoti .zuo{
+    width: 20px;
+    height: 20px;
+    background-color: #e2e2e2;
+    position: absolute;
+    right: 32px;
+    top: 70px;
+}
+.pinpai .biaoti .zuo span{
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-image: url(../images/sprites.png);
+    background-position: -40px -110px;
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    /* 只有一张图，镜像翻转 */
+    transform: rotateY(0.5turn);
+}
+.pinpai .biaoti .you{
+    width: 20px;
+    height: 20px;
+    background-color: #27ba9b;
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+.pinpai .biaoti .you span{
+    display: inline-block;
+    width: 6px;
+    height: 12px;
+    background-image: url(../images/sprites.png);
+    background-position: -40px -110px;
+    position: absolute;
+    right: 6px;
+    top: 4px;
+}
+.pinpai img{
+    margin-left: 4px;
+    width: 244px;
+    height: 306px;
+}
+
+/* 生鲜服饰餐厨居家 */
+.wrapper .zhanshi{
+    height: 706px;
+}
+.wrapper .zhanshi .biaoti{
+    height: 96px;
+    line-height: 96px;
+    text-align: center;
+}
+.wrapper .zhanshi .biaoti h2{
+    font-family: PingFangSC-Regular;
+	font-size: 29px;
+}
+.wrapper .zhanshi .biaoti ul{
+    padding-top: 40px;
+    margin-left: 660px;
+    width: 360px;
+    height: 96px;
+}
+.wrapper .zhanshi .biaoti li{
+    padding-left: 4px;
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+}
+.wrapper .zhanshi .biaoti li a{
+    display: inline-block;
+    width: 48px;
+}
+.wrapper .zhanshi .biaoti li:first-child{
+    padding-left: 0;
+}
+.wrapper .zhanshi .biaoti li a:hover{
+    color: #fefbfc;
+    background-color: #27ba9b;
+}
+.wrapper .zhanshi .biaoti p a{
+    position: relative;
+    font-family: PingFangSC-Regular;
+    color: #999999;
+}
+.wrapper .zhanshi .biaoti p span{
+    margin-left: 12px;
+    display: inline-block;
+    height: 14px;
+    width: 8px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+.wrapper .zhanshi .goods p img{
+    width: 240px;
+	height: 610px;
+}
+.wrapper .zhanshi .goods .you{
+    width: 1000px;
+}
+.wrapper .zhanshi .goods .you a{
+    display: inline-block;
+    margin-left: 8px;
+    width: 242px;
+    height: 304px;
+    /* background-color:aqua; */
+}
+.wrapper .zhanshi .goods .you img{
+    margin-top: 8px;
+    margin-left: 27px;
+    margin-bottom: 6px;
+    width: 184px;
+    height: 184px;
+}
+.wrapper .zhanshi .goods .you p{
+    margin-left: 28px;
+}
+.wrapper .zhanshi .goods .you .money{
+    color: #9a2e1f;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* 最新专题 */
+.zhuanti{
+    background-color: #f5f5f5;
+    height: 512px;
+}
+.zhuanti .biaoti{
+    margin-top: 10px;
+    height: 104px;
+    line-height: 104px;
+}
+.zhuanti .biaoti h2{
+    font-family: PingFangSC-Regular;
+	font-size: 28px;
+}
+.zhuanti .biaoti p{
+    padding-top: 8px;
+    padding-left: 34px;
+    height: 104px;
+    line-height: 104px;
+}
+.zhuanti .biaoti a{
+    color: #999999;
+}
+.zhuanti .biaoti p span{
+    margin-left: 12px;
+    display: inline-block;
+    height: 14px;
+    width: 8px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 -110px;
+    vertical-align: middle;
+}
+.zhuanti .content{
+    position: relative;
+    margin-left: 14px;
+    width: 404px;
+    height: 356px;
+    background-color: #fff;
+}
+.zhuanti .one{
+    margin-left: 0;
+}
+.zhuanti .content img{
+    width: 404px;
+}
+.zhuanti .content .wenzi{
+    height: 66px;
+    line-height: 66px;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+}
+.zhuanti .content p{
+    margin-left: 24px;
+    margin-right: 18px;
+}
+.zhuanti .content .heart{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -110px;
+    line-height: 66px;
+    vertical-align: middle;
+}
+.zhuanti .content .eye{
+    display: inline-block;
+    width: 16px;
+    height: 12px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -110px;
+    line-height: 66px;
+    vertical-align: middle;
+}
+.zhuanti .content .comment{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -200px -110px;
+    line-height: 66px;
+    vertical-align: middle;
+}
+.zhuanti .content .heartt{
+    display: inline-block;
+    width: 16px;
+    height: 14px;
+    background-image: url(../images/sprites.png);
+    background-position: -240px -110px;
+    line-height: 66px;
+    vertical-align: middle;
+}
+
+/* 联系我们 */
+.service{
+    height: 302px;
+}
+.service .neirong{
+    margin: 80px 60px;
+    width: 192px;
+    height: 190px;
+    text-align: center;
+}
+.service .neirong i{
+    font-family: PingFangSC-Regular;
+    color: #999999;
+}
+.service .neirong a{
+    width: 92px;
+    height: 92px;
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    color: #999999;
+    position: relative;
+
+    /* 与绝对定位冲突 */
+    /* text-align: center; */
+}
+.service .xiangqing{
+    margin-top: 34px;
+    height: 92px;
+}
+.service .xiangqing p{
+    width: 92px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    position: absolute;
+    bottom: 14px;
+
+    /* 给p加了宽高 */
+    /* left: 18px; */
+}
+.service .kefu{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -250px -70px;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+}
+.service .fankui{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -70px;
+    position: absolute;
+    top: 22px;
+    left: 32px;
+}
+.service .weixin{
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -204px -14px;
+    position: absolute;
+    top: 22px;
+    left: 28px;
+}
+.service .weibo{
+    display: inline-block;
+    width: 36px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -350px -14px;
+    position: absolute;
+    top: 22px;
+    left: 28px;
+}
+
+.service .neirongg{
+    margin: 80px 20px;
+    padding-right: 34px;
+    width: 280px;
+    height: 190px;
+    text-align: center;
+    border-right: 1px solid #eee;
+}
+.service .neirongg i{
+    color: #999999;
+}
+.service .neirongg img{
+    width: 116px;
+    height: 116px;
+    border: 1px solid #eeeeee;
+}
+.service .neirongg .zi i{
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+    color: #999999;
+}
+.service .neirongg .zi{
+    /* margin-right: 20px; */
+    margin-top: 8px;
+    text-align: left;
+    width: 102px;
+}
+.service .neirongg .xiangqing .zi a{
+    margin-top: 14px;
+    display: inline-block;
+    width: 102px;
+    height: 32px;
+    background-color: #27ba9b;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.service .four{
+    margin: 80px 0;
+    width: 280px;
+    height: 190px;
+    text-align: center;
+}
+.service .four i{
+    color: #999999;
+}
+.service .four .number{
+    display: inline-block;
+    margin-top: 58px;
+    font-family: PingFangSC-Semibold;
+	font-size: 22px;
+    color: #666666;
+}
+.service .four .date{
+    display: inline-block;
+    margin-top: 18px;
+    font-family: PingFangSC-Light;
+	font-size: 14px;
+    color: #999999;
+}
+
+/* 底部 */
+.bottom{
+    height: 344px;
+    background-color: #333;
+}
+.bottom .dazi{
+
+    /* ???? */
+    margin: 52px auto;
+    
+    width: 1392px;
+    height: 172px;
+    /* background-color: #fff; */
+    border-bottom:2px solid #434343;
+    line-height: 172px;
+    font-family: PingFangSC-Light;
+	font-size: 28px;
+    color: #ffffff;
+}
+.bottom .dazi p{
+    display: inline-block;
+    margin: 0 134px;
+    height: 172px;
+    width: 186px;
+    line-height: 172px;
+}
+.bottom .dazi .jiage{
+    margin-right: 14px;
+    display: inline-block;
+    width: 58px;
+	height: 58px;
+    background-image: url(../images/sprites.png);
+    background-position: 0 0;
+    vertical-align: middle;
+}
+.bottom .dazi .wuliu{
+    margin-right: 14px;
+    display: inline-block;
+    width: 58px;
+	height: 58px;
+    background-image: url(../images/sprites.png);
+    background-position: -130px 0;
+    vertical-align: middle;
+}
+.bottom .dazi .pinzhi{
+    margin-right: 14px;
+    display: inline-block;
+    width: 58px;
+	height: 58px;
+    background-image: url(../images/sprites.png);
+    background-position: -64px 0;
+    vertical-align: middle;
+}
+.bottom .xiaozi{
+    margin: 0 auto;
+    height: 172px;
+    width: 1392px;
+    font-family: PingFangSC-Light;
+	font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
+.bottom .xiaozi ul{
+
+    /* ??? */
+    margin: 42px auto;
+    
+    width: 548px;
+    height: 14px;
+}
+.bottom .xiaozi a{
+    padding: 0 10px;
+    font-family: PingFangSC-Light;
+	font-size: 14px;
+    color: #999999;
+    border-left: 1px solid #999;
+}
+.bottom .xiaozi .first{
+    padding-left: 0;
+    border: 0;
+}
+.bottom .xiaozi p{
+    /* 总的清除浮动了，为什么这个p还得清除？？ */
+    clear:both;
+    margin-top: 20px;
+}

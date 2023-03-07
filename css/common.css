@@ -1,0 +1,101 @@
+/* 顶端快捷栏 */
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+.shortcut{
+	height: 52px;
+	background-color: #333333;
+}
+.shortcut ul{
+    line-height: 52px;
+}
+
+.shortcut ul a{
+    padding: 0 14px;
+    border-left: 1px solid #5a5a5a;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+    color: #dcdcdc;
+}
+.shortcut ul a:first-child{
+    /* border-left: 0; */
+}
+.shortcut span{
+    /* 行内标签！ */
+    display: inline-block;
+    width: 11px;
+    height: 16px;
+    background-image: url(../images/sprites.png);
+    background-position: -160px -70px;
+    vertical-align: middle;
+}
+
+
+/* 头部 */
+.header{
+    line-height: 130px;
+    /* background-color:aqua; */
+}
+.header h1{
+    margin-left: 24px;
+}
+.header h1 img{
+    height: 70px;
+    width: 208px;
+    vertical-align: middle;
+}
+.header ul{
+    margin-top: 4px;
+    margin-left: 40px;
+}
+.header li{
+    margin-right: 48px;
+}
+.header li a{
+    padding-bottom: 8px;
+    font-family: PingFangSC-Regular;
+}
+.header li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid #27ba9b;
+}
+.header .gouwuche{
+    margin-top: 58px;
+    margin-right: 14px;
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+    /* vertical-align: middle; */
+}
+.header .fangdajing{
+    margin-top: 54px;
+    display: inline-block;
+    width: 18px;
+    height: 30px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -70px;
+    border-bottom: 2px solid #e7e7e7;
+}
+.header input{
+    margin-top: 54px;
+    margin-right: 15px;
+    padding-left: 10px;
+    width: 172px;
+    height: 30px;
+    border-bottom: 2px solid #e7e7e7;
+    font-family: PingFangSC-Regular;
+	font-size: 14px;
+}
+.header .wrapper{
+    position: relative;
+}
+.header .two{
+    position: absolute;
+    top: 53px;
+    right: 0;
+    height: 15px;
+    width: 20px;
+} 
